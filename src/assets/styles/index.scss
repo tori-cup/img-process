@@ -1,0 +1,28 @@
+@import './responsive.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'PingFang SC', 'Helvetica Neue', sans-serif;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+// 深色模式切换
+.dark {
+  background: #111;
+  color: #fff;
+}
+
+.dark .el-card {
+  background: #222;
+  color: #fff;
+}
